@@ -2,8 +2,6 @@ import { Avatar, AvatarImage } from "@radix-ui/react-avatar";
 import Link from "next/link";
 import { AvatarFallback } from "../ui/avatar";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
-import { useContext } from "react";
-import { AuthContext } from "@/context/authContext";
 
 export default function AppHeader() {
   return (
